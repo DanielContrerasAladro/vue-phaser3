@@ -3,11 +3,14 @@ var filesToCache = [
   '/',
   '/index.html',
   '/img/logo.png',
+  '/img/logo.ico',
   '/img/icon-192.png',
   '/img/icon-256.png',
   '/img/icon-512.png',
-  '/js/game.js',
-  '/css/style.css'
+  '/css/style.css',
+  '/img/sky.cb8fe210.png',
+  '/img/bomb.185c1ec9.png',
+  '/media/thud.bd85acc9.mp3',
 ];
  
 self.addEventListener('install', function(event) {

@@ -20,7 +20,7 @@ body {
 
 /* Modal Content */
 .modal-content {
-  background-color: #fefefe;
+  background-color: #e08702;
   margin: auto;
   padding: 20px;
   border: 1px solid #888;
@@ -29,7 +29,7 @@ body {
 
 /* The Close Button */
 .close {
-  color: #aaaaaa;
+  color: #000;
   float: right;
   font-size: 28px;
   font-weight: bold;
@@ -38,6 +38,11 @@ body {
 .close:hover,
 .close:focus {
   color: #000;
-  text-decoration: none;
+  text-decoration: wavy;
   cursor: pointer;
+}
+
+button {
+  background-color: #034086;
+  color: #ffffff;
 }
