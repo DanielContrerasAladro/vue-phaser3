@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vue-cli-service serve",
     "build": "vue-cli-service build --modern",
+    "lint": "vue-cli-service lint",
     "serve": "serve dist"
   },
   "dependencies": {
@@ -19,5 +20,24 @@
     "sass-loader": "^7.0.1",
     "serve": "^10.1.2",
     "vue-template-compiler": "^2.6.8"
-  }
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
 }
